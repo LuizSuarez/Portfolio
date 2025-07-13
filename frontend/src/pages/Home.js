@@ -30,7 +30,7 @@ const Home = () => (
       </motion.div>
     </motion.div>
     <motion.div className="hero-image" initial={{ scale: 0.8, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ delay: 0.5, duration: 0.8 }}>
-      <img src="/Profile.JPEG" alt="Web Developer" style={{ boxShadow: "0 8px 32px rgba(30, 144, 255, 0.13)", borderRadius: "12px" }} />
+      <img src="/Profile.png" alt="Web Developer" style={{ boxShadow: "0 8px 32px rgba(30, 144, 255, 0.13)", borderRadius: "12px" }} />
     </motion.div>
   </section>
 );
